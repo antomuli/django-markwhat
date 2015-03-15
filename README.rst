@@ -115,7 +115,7 @@ The Python Markdown library supports options named "safe_mode" and
 options in tandem, the markdown filter supports the "safe" argument.
 ::
     
-    { markdown_content_var|markdown:"safe" }}
+    {{ markdown_content_var|markdown:"safe" }}
 
 .. warning::
 
