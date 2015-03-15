@@ -34,7 +34,7 @@ to HTML.
 Supported Python versions
 =========================
 
-``django-crequest`` currently can be run on multiple python versions:
+``django-markwhat`` currently can be run on multiple python versions:
 
 * Python 2 (2.7)
 * Python 3 (3.2, 3.3, 3.4)
@@ -63,12 +63,13 @@ Another way is by cloning ``django-markwhat``'s `git repo <https://github.com/Al
     git clone git://github.com/Alir3z4/django-markwhat.git
 
 Then install it by running:
-::
+
+.. code-block:: bash
     
     $ python setup.py install
 
 Configuration
-******************
+*************
 
 To activate these filters, add ``'django_markwhat'`` to your
 ``INSTALLED_APPS`` setting. Once you've done that, use
@@ -83,7 +84,7 @@ To activate these filters, add ``'django_markwhat'`` to your
 
 .. _Textile: http://en.wikipedia.org/wiki/Textile_%28markup_language%29
 .. _Markdown: http://en.wikipedia.org/wiki/Markdown
-.. _reST (reStructured Text): http://en.wikipedia.org/wiki/reStructuredText
+.. _reST (reStructuredText): http://en.wikipedia.org/wiki/reStructuredText
 .. _PyTextile: http://loopcore.com/python-textile/
 .. _Python-markdown: http://pypi.python.org/pypi/Markdown
 .. _docutils: http://docutils.sf.net/
